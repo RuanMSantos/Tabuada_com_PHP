@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="script.php" method="post">
-        <label for="numero">Digite um número para tabuada</label>
-        <input type="number" min="0" max="10" name="numero" id="numero">
-        <input type="submit" value="Continuar">
-    </form>
+    <div class="form">
+        <form action="script.php" method="post">
+            <label for="numero">Digite um número para tabuada</label>
+            <input style="width:220px" type="number" min="0" max="100" name="numero" id="numero">
+            <input type="submit" value="Continuar">
+        </form>
+    </div>
 </body>
 </html>
